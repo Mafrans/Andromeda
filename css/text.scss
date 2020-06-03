@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$header-sizes: 96px, 60px, 48px, 34px, 24px, 20px;
+$header-weights: 300, 300, 400, 400, 400, 500;
+
+@for $i from 1 through 6 {
+    h#{$i} {
+        font-size: nth($header-sizes, $i);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: nth($header-weights, $i);
+    }
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+    &.subtitle {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+    }
+
+    &.small {
+        font-size: 14px;
+
+        &.subtitle {
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+}
+
+hr {
+    margin: 1rem 0;
+
+    &.dotted {
+        border: none;
+        &::after {
+            content: "• • •";
+            font-size: 2rem;
+        }
+    }
+}

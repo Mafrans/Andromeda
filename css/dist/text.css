@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+h1 {
+  font-size: 96px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 34px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+p.subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+p.small {
+  font-size: 14px;
+}
+
+p.small.subtitle {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+hr.dotted {
+  border: none;
+}
+
+hr.dotted::after {
+  content: "• • •";
+  font-size: 2rem;
+}

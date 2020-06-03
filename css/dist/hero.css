@@ -1,0 +1,35 @@
+.hero {
+  height: 100vh;
+}
+
+.hero img {
+  z-index: -1;
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.hero.half {
+  height: 50vh;
+}
+
+.hero.half .container {
+  top: 25%;
+}
+
+.hero.third {
+  height: 33.33vh;
+}
+
+.hero.third .container {
+  top: 16.66%;
+}
+
+.hero .container {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
